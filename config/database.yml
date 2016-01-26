@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: ec2-app_production
-  username: ec2-app
-  password: <%= ENV['EC2-APP_DATABASE_PASSWORD'] %>
+  username: deploy
+  password: mWgx247nsu
